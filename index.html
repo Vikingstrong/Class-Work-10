@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <header class="max-w-300 m-auto flex justify-between p-6 items-center">
+    <header class="max-w-300 m-auto flex justify-between p-6 items-center lg:px-0">
         <img src="src/img/header/logo.png" alt="">
         <div class="lg:flex gap-35 items-center hidden">
             <nav class="flex gap-10 items-center">
@@ -21,5 +21,32 @@
         </div>
         <i class="lg:hidden! fa-solid fa-bars text-[18px]"></i>
     </header>
+<main>
+    <section class="relative max-w-300 m-auto p-6 lg:p-0  flex flex-col gap-5 lg:flex-row lg:justify-between lg:items-center">
+        <aside class="flex flex-col gap-5 items-start lg:gap-10">
+            <div class="flex items-center gap-5 bg-[#E7F6FF] rounded-3xl p-2 px-5">
+                <p class="px-8 py-1 bg-[#094B72] text-white rounded-xl">New</p>
+                <p class="text-[14px] lg:text-[16px]">Stay connected to the upcoming & Recent jobs</p>
+            </div>
+            <h1 class="text-4xl text-[#094B72] font-bold lg:text-7xl">Your Solution <br> Legal Consultacy</h1>
+            <p class="text-[#4F4F4F] lg:text-2xl">We are here to help you take care of your legality with the best service especially for you.</p>
+            <button class="p-4 bg-[#094B72] text-white rounded-md lg:p-6">GET STARTED</button>
+            <div class="hidden lg:flex flex-col gap-5 mt-20">
+                <h3 class="text-[22px] text-[#8B8C8C]">Trusted by 10+ companies in indonesia</h3>
+                <div class="flex flex-wrap gap-3 w-[60%] items-center justify-between">
+                    <img src="src/img/section1/logo1.png" alt="">
+                    <img src="src/img/section1/logo2.png" alt="">
+                    <img src="src/img/section1/logo3.png" alt="">
+                    <img src="src/img/section1/logo4.png" alt="">
+                </div>
+            </div>
+        </aside>
+        <img class="lg:w-[50%]" src="src/img/section1/img.png" alt="">
+        <div class="absolute bottom-5 lg:bottom-0 right-25 lg:right-50 py-5 px-10 lg:px-20 flex flex-col items-center bg-white shadow-[0_0_5px_gray] rounded-xl">
+            <h2 class="text-2xl">Tiara Andini</h2>
+            <p class="text-[#87898C]">-Lawyer</p>
+        </div>
+    </section>
+</main>
 </body>
 </html>
